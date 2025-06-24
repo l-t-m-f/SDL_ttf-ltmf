@@ -1102,7 +1102,7 @@ typedef enum TTF_ImageType
     TTF_IMAGE_INVALID,
     TTF_IMAGE_ALPHA,    /**< The color channels are white */
     TTF_IMAGE_COLOR,    /**< The color channels have image data */
-    TTF_IMAGE_SDF,      /**< The alpha channel has signed distance field information */
+    TTF_IMAGE_SDF      /**< The alpha channel has signed distance field information */
 } TTF_ImageType;
 
 /**
